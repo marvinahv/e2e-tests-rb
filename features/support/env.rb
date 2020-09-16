@@ -3,6 +3,7 @@
 # Makes capybara available. See 
 # See Capybara's DSL https://github.com/teamcapybara/capybara#the-dsl
 require 'spinach/capybara'
+require 'minitest/autorun'
 require 'pry'
 
 Capybara.configure do |config|
