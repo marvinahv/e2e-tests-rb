@@ -1,4 +1,3 @@
-@feature-mentor-can-see-signup-form
 Feature: Mentor can see signup form
   
   Scenario: Visitor goes to signup page

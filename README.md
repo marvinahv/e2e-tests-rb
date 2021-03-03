@@ -32,3 +32,12 @@ spinach
 See more at [Spinach Github site](https://github.com/codegram/spinach).
 
 
+## Running tests in the database
+
+Eventually, when the test is run, all databse items should be destroyed and then the seed files should be run as to create the test users.
+
+
+### Seed users
+
+The API has the following users in the seed file:
+

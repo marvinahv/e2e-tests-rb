@@ -9,12 +9,12 @@ class Spinach::Features::MentorCanSeeSignupForm < Spinach::FeatureSteps
   end
 
   step 'he should see the signup form' do
-    assert page.has_css?('#signup-form')
+    assert page.has_css?('form#signup-form')
     
     within('#signup-form') do
-      assert has_css?('#signup-form__name')
-      assert has_css?('#signup-form__email')
-      assert has_css?('#signup-form__password')
+      assert has_css?('input#signup-form__name')
+      assert has_css?('input#signup-form__email')
+      assert has_css?('input#signup-form__password')
     end
     
     filepath = __FILE__

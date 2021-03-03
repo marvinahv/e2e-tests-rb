@@ -5,6 +5,7 @@
 require 'spinach/capybara'
 require 'capybara/minitest'
 require 'pry'
+require_relative './seeds'
 
 Capybara.configure do |config|
   config.run_server = false
